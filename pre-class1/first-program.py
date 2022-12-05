@@ -10,3 +10,11 @@ c = '3.5'
 d = ' F is enough for room temperature.'
 
 print(str(a+int(b)+float(c))+d)
+number = 2020
+text = "children deserve respect as much as adults in"
+print(text, number)
+print("yesterday I ate", 2, "apples")
+print('i', end=' ')
+print('will say', end=' ')
+print("'i missed you'", end=' ')
+print('to my mother') 
