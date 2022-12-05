@@ -79,3 +79,20 @@ amount = 6
 output = f"The amount of {fruit} and {vegetable} we bought are totally {amount} pounds"
 
 print(output)
+result = f"{4 * 5}"
+
+print(result)
+
+my_name = 'JOSEPH'
+output = f"My name is {my_name.capitalize()}"
+
+print(output)
+name = "Joseph"
+job = "teachers"
+domain = "Data Science"
+message = (
+     f"Hi {name}. "
+     f"You are one of the {job} "
+     f"in the {domain} section."
+)
+print(message)
