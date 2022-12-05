@@ -53,3 +53,20 @@ fruit = 'Orange'
 vegetable = 'Tomato'
 print("using + :", fruit + vegetable)
 print("using * :", 3 * fruit)
+
+fruit = 'orange'
+fruit += ' apple'
+fruit += ' banana'
+fruit += ' apricot'
+
+print(fruit)
+phrase = 'I have %d %s and %.2f brothers' % (4, "children", 5)  
+print (phrase)
+sentence = "apologizing is a virtue"
+
+print("%.11s" % sentence)  # we get first 11 characters of the string
+fruit = 'Orange'
+vegetable = 'Tomato'
+amount = 4
+print('The amount of {} we bought is {} pounds'.format(fruit, amount))
+print('{state} is the most {adjective} state of the {country}'.format(state='California', country='USA', adjective='crowded'))
