@@ -38,3 +38,18 @@ z *= 2
 print ("2 times z        : ", z, "\n")
 print('we', '\bare', '\bunited') # remember, normally print() function
 # separates expressions by spaces
+print('it\'s funny to learn Python') 
+logic = True and False or not False or False
+print(logic)
+city = 'Phoenix'
+
+print(city[1:])  # starts from index 1 to the end
+print(city[:6])  # starts from zero to 5th index
+print(city[::2])  # starts from zero to end by 2 step
+print(city[1::2])  # starts from index 1 to the end by 2 step
+print(city[-3:])  # starts from index -3 to the end
+print(city[::-1])  # negative step starts from the end to zero
+fruit = 'Orange'
+vegetable = 'Tomato'
+print("using + :", fruit + vegetable)
+print("using * :", 3 * fruit)
