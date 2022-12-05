@@ -96,3 +96,15 @@ message = (
      f"in the {domain} section."
 )
 print(message)
+name = "Joseph"
+job = "teachers"
+domain = "Data Science"
+message = f"Hi {name}. " \
+     f"You are one of the {job} " \
+     f"in the {domain} section."
+
+print(message)
+
+text = 'www.clarusway.com'
+print(text.endswith('.com'))
+print(text.startswith('http:'))
