@@ -108,3 +108,131 @@ print(message)
 text = 'www.clarusway.com'
 print(text.endswith('.com'))
 print(text.startswith('http:'))
+email = "clarusway@clarusway.com is my e-mail address"
+print(email.startswith("@", 9))
+print(email.endswith("-", 10, 32))
+
+phrase = "myemailaddress@clarusway.com"
+
+print(len(phrase))
+print(phrase.startswith("@", 14))
+print(phrase.endswith(".", 15, 24))
+sentence = "I live and work in Virginia"
+
+print(sentence.upper())  
+
+print(sentence.lower())
+
+print(sentence.swapcase())
+
+print(sentence)  # note that, source text is unchanged
+
+space_string = "     listen first      "
+print(space_string.strip())  # removes all spaces from both sides
+
+source_string = "interoperability"
+print(source_string.strip("yi"))  
+# removes trailing "y" or "i" or "yi" or "iy" from both sides
+
+print('www', 'clarusway', "com", sep='.', end=' ')
+print('will', end=' ')
+print('open', end=' ')
+print('your', end=' ')
+print('path', end='.')
+
+x = 12
+y = x + 21
+x = 2
+print(y//x)
+number = '32'
+print(1988 + int(number))
+print("{4} {9} {1} {7} {5} {0} {6} {8} {3} {2}".format('while', 'dream', 'work.', 'and', 'Some', 'success', 'others', 'of', 'wake up', 'people'))
+
+print(not None or 1)
+
+print('{3} {2} {4} {1} {0}'.format('job.', 'a', 'will', 'I', 'find'))
+
+section_3_5 = "python data types and useful operations"
+print(str.title(section_3_5))
+
+
+
+# print(float("140" * int(input("Enter a number:" ))))
+
+print(int("5" + "1"))
+print(str("5" + "1"))
+print("5" + "1")
+
+var1 = "sleep"
+var2 = "eat"
+var3 = "better"
+var4 = "life"
+text = f"The less you {var1} and {var2}, the {var3} your {var4} will be."
+
+city = "SARAJEVO"
+text = f"I live in {city.title()}."
+print(text)
+
+print({0} and False or [])
+print("a"+"bc")
+print(3*1**3)
+
+print(0xA + 0xB + 0xC)
+
+print("abcd"[2:])
+str1 = "hello"
+str2 = ","
+str3 = "world"
+print(str1[-1:])
+str1 = "world"
+
+print(r"\nhello")
+
+print("new" "line")
+
+print("new" "line" "end", 3)
+str1 = "clarsuway"
+print(str1[::-1])
+
+example = "snow world"
+print("%s" % example[4:7])
+
+print("DA", sep="-",end = ' ')
+print("CA", end = '')
+print("BA", sep="-", end = ' ')
+print("AA", end = '')
+
+# example = "snow world"
+# example[3] = 's'
+# print(example)
+print(max("joseph"))
+
+example="helloworld"
+print(example[::-1].startswith("eh"))
+
+print("hello\example\test.txt")
+print("hello\"example\"test.txt")
+
+print("hello\\example\\test.txt")
+
+s = "\t\tWorld\n"
+print(s.strip())
+
+# print("hello" +"1+2+"3")
+print(int("5" + "1"))
+print(str("5" + "1"))
+print("5" + "1")
+text = "Clarusway, Clarusway, Clarusway,\n\tClarusway, Clarusway, Clarusway,\n\t\tClarusway, Clarusway, Clarusway"
+
+print(text)
+
+print({0} and False or [])
+
+word = 'clarusway'
+n = 3
+front = word[0:3]
+back = word[4:]
+print(front + back)
+
+text = "{0}! I am a {1} programmer and I {2} Clarusway".format("Hello", "new", "love")
+print(text)
