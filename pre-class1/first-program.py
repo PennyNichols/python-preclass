@@ -70,3 +70,12 @@ vegetable = 'Tomato'
 amount = 4
 print('The amount of {} we bought is {} pounds'.format(fruit, amount))
 print('{state} is the most {adjective} state of the {country}'.format(state='California', country='USA', adjective='crowded'))
+print("{6} {0} {5} {3} {4} {1} {2}".format('have', 6, 'months', 'a job', 'in', 'found', 'I will'))
+print("{9} {7} {1} {10} {3} {2} {5} {8} {6} {0} {4}".format('in', 'know', 'bring', 'to', 'students.', 'out', 'best', 'teachers', 'the', 'Good', 'how'))
+
+fruit = 'Orange'
+vegetable = 'Tomato'
+amount = 6
+output = f"The amount of {fruit} and {vegetable} we bought are totally {amount} pounds"
+
+print(output)
