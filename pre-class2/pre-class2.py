@@ -45,3 +45,5 @@ student_ages = {"Harry": 29,
                 }
 
 print(student_ages["Clark"])
+
+print(len(set('listen to the voice of enlisted')))
