@@ -47,3 +47,108 @@ student_ages = {"Harry": 29,
 print(student_ages["Clark"])
 
 print(len(set('listen to the voice of enlisted')))
+
+numbers = {}
+
+numbers['x'] = 12
+numbers['y'] = 4
+numbers.update({'z': 3})
+
+print(numbers['x'] + numbers['y'] + numbers['z']**2)
+
+numbers_10 = [10, 30, 40, 50, 60, 70, 80, 90, 100]
+numbers_10.insert(1,20)
+print(numbers_10)
+
+fruits_vegetables = ["fruit", "vegetable", ["apple", "banana", ["mango", "avocado"]], ["spinach", "broccoli"]]
+
+
+list1 = [123]
+print(type(list1))
+
+family_members = ['Meghan', 'Tom', 'Nicole', 'Tim']
+family_members = tuple(family_members)
+print(family_members)
+
+flowers = ['Rose', 'Orchid', 'Tulip']
+count1 = len(flowers)
+count2 = 0
+
+while count1>0 :
+    print(flowers[count2])
+    count1 -= 1
+    count2 += 1
+
+for i in {'n1' : 'one', 'n2' : 'two'} : print(i)
+
+iterable = [1, 2, 3, 4]
+for i in iterable:
+    print(i**2)
+
+    a = 3
+while a**2 < 299:
+    print('I will stop smoking')
+    a += 3
+
+
+
+# math_mark = int(input('Please enter the mark: '))
+# if math_mark >= 85:
+#     print('A (Excellent)')
+# elif 70 <= math_mark <= 84:
+#     print('B (Good)')
+# elif 60 <= math_mark <= 69:
+#     print('C (Medium)')
+# elif 45 <= math_mark <= 59:
+#     print('D (Not Bad)')
+# else:
+#     print('F (Failed)')
+
+a=998
+if a >= 999 :
+    print(a ** 0)  
+
+else :
+    print(a * 2)
+
+print()
+a = 49
+while a <= 62:
+    print(a)
+    a += 5
+print()
+# a = 49
+# while a > 10:
+#     print(a)
+#     a += 5
+
+# number = int(input('Please enter a number: '))
+# count = 0
+# while count < number:
+#     print(count**2)
+#     count+=1
+
+sample_list = [{"section":5, "topic":2}, 'clarusway', [1, 4], 2020, 3.14, 1+618j, False, (10, 20)]
+
+for i in sample_list:
+    print('The type of {} is {}'.format(i, type(i)))
+
+n=int(input('Enter a number to check if it is a prime number : '))
+count=0
+for i in range(1, n+1):
+    if n%i==0 : count += 1
+    else : count += 0
+if count < 3: print('{} is a prime number '.format(n))
+else : print('{} is not a prime number'.format(n))
+
+prime=[]  # created an empty list to collect prime numbers in it
+
+for num in range(2, 101):
+    status = True
+    for i in range(2, num):
+        if num % i == 0: # check if the only factors are 1 and itself
+            status = False
+    if status:
+        prime.append(num)  # collect prime numbers in the list
+
+print(prime)
